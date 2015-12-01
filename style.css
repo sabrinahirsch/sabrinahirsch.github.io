@@ -16,7 +16,7 @@ Released   : 20121119
 
 a {
 	color: #FF3867;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover {
@@ -24,8 +24,8 @@ a:hover {
 }
 
 body {
-	font-size: 11.5pt;
-	line-height: 2em;
+	font-size: 12.5pt;
+	line-height: 1.5em;
 	color: #353B3A;
 	background: #D5ECE7 url(images/bg.png);
 	letter-spacing: 0.025em;
@@ -36,7 +36,7 @@ body,input {
 }
 
 p {
-	text-align: justify;
+	text-align: right-align;
 }
 
 br.clearfix {
@@ -48,9 +48,10 @@ strong {
 }
 
 h1,h2,h3,h4 {
+  margin-top: .25em;
 	letter-spacing: -1px;
 	text-transform: lowercase;
-	letter-spacing: 0.0em;
+	letter-spacing: 0.025em;
 	font-family: 'Pacifico', cursive;
 }
 
@@ -59,12 +60,12 @@ h2 {
 }
 
 h2,h3,h4 {
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 	color: #455350;
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: 1.75em;
 }
 
 h4 {
@@ -81,22 +82,22 @@ img.aligntop {
 }
 
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 0em;
 }
 
 ul {
-	margin-bottom: 1.5em;
+	margin-bottom: 0em;
 }
 
 ul h4 {
-	margin-bottom: 0.35em;
+	margin-bottom: 0em;
 }
 
 .post {
 	overflow: hidden;
 	border-bottom: dashed 2px #d7dfdf;
-	margin-bottom: 40px;
-	padding-bottom: 20px;
+	margin-bottom: 18px;
+	padding-bottom: 18px;
 }
 
 .post-last {
@@ -106,7 +107,7 @@ ul h4 {
 }
 
 #content {
-	padding: 55px 35px 45px 35px;
+	padding: 45px 35px 45px 35px;
 	width: 910px;
 	background: #FFF;
 	color: #595959;
@@ -126,10 +127,10 @@ ul h4 {
 #footer {
 	text-align: center;
 	padding: 20px 0 80px 0;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
+	text-transform: lowercase;
+	letter-spacing: 0.2em;
 	font-size: 0.75em;
-	font-family: Arial, sans-serif;
+	font-family: 'Copse', serif;
 	color: #95ADA7;
 }
 
